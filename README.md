@@ -4,9 +4,10 @@
 
 2. Pada contoh guest:guest@localhost:5672, ini mengacu pada URL atau alamat AMQP yang digunakan untuk menghubungkan aplikasi  dengan broker AMQP (dalam tutorial ini RabbitMQ).
 
-"guest:guest" adalah username dan password yang digunakan untuk koneksi ke broker AMQP. Ini adalah nilai default yang sering digunakan untuk pengembangan dan pengujian.
-"localhost:5672" menunjukkan host dan port tempat broker AMQP berjalan. "localhost" mengarah ke komputer lokal di mana  RabbitMQ dijalankan, sedangkan "5672" adalah port default untuk koneksi AMQP.
-Dalam kode pada tutorial ini terdapat penggunaan CrosstownBus::new_queue_listener("amqp://guest:guest@localhost:5672".to_owned()), di mana kita membuat listener untuk mendengarkan antrian pesan dengan URL AMQP yang sesuai. Kemudian kita menggunakan CrosstownBus untuk mengirim dan menerima pesan menggunakan protokol AMQP.
+    "guest:guest" adalah username dan password yang digunakan untuk koneksi ke broker AMQP. Ini adalah nilai default yang sering digunakan untuk pengembangan dan pengujian.
+    "localhost:5672" menunjukkan host dan port tempat broker AMQP berjalan. "localhost" mengarah ke komputer lokal di mana  RabbitMQ dijalankan, sedangkan "5672" adalah port default untuk koneksi AMQP.
+    Dalam kode pada tutorial ini terdapat penggunaan CrosstownBus::new_queue_listener("amqp://guest:guest@localhost:5672".to_owned()), di mana kita membuat listener untuk mendengarkan antrian pesan dengan URL AMQP yang sesuai. Kemudian 
+    kita menggunakan CrosstownBus untuk mengirim dan menerima pesan menggunakan protokol AMQP.
 
 ### Tutorial Screenshoot
 4. Simulating slow subscriber
