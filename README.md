@@ -20,4 +20,4 @@ Dalam kode pada tutorial ini terdapat penggunaan CrosstownBus::new_queue_listene
 5. multipler publisher
     ![RabbitMq3 Image](/images/rabbitmq3.png)
 
-    Yaa terdapat peningkatan queue nya menjadi 2 dimana saya hanya membuka 3 buah cmd dan terminal untuk melakukan "cargo run" pada publisher"
+    Yaa terdapat peningkatan queue nya menjadi 2 dimana saya hanya membuka 3 buah cmd dan terminal untuk melakukan "cargo run" pada publisherr"
