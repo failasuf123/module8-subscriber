@@ -7,6 +7,7 @@ pub struct UserCreatedEventMessage {
  pub user_id: String,
  pub user_name: String
 }
+// j
 
 pub struct UserCreatedHandler;
 
