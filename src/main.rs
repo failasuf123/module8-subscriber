@@ -36,5 +36,5 @@ fn main() {
     UserCreatedHandler{}, crosstown_bus::QueueProperties {
     auto_delete: false, durable: false, use_dead_letter: true });
     loop {
- }
+    }
 }
